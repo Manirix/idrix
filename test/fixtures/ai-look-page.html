@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check This Banned Patterns Page</title>
+    <style>
+        /* Pattern #1: Purple/blue/pink default gradients */
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        /* Pattern #2: Any gradient used as decoration */
+        .card {
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+        }
+
+        /* Pattern #3: Glassmorphism / backdrop-blur cards everywhere */
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Pattern #4: Neon glow shadows and glowing borders */
+        .neon {
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.8);
+            border: 2px solid #a855f7;
+        }
+
+        /* Pattern #5: Emoji used as icons or section markers */
+        .icon::before { content: "✨"; }
+
+        /* Pattern #6: Identical three-column icon + title + text card grids */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Pattern #7: Floating blobs/orbs/blurred circles as decoration */
+        .blob {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.3;
+        }
+
+        /* Pattern #8: Centered hero with gradient headline and stacked CTAs */
+        .hero {
+            text-align: center;
+            background: linear-gradient(to right, #f7931e, #da5a3e);
+            padding: 4rem 2rem;
+        }
+        .cta {
+            background: #ff6b6b;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            margin: 0.5rem;
+            cursor: pointer;
+        }
+
+        /* Pattern #9: "New" / "Introducing" pill badge */
+        .pill {
+            background: #ff6b6b;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+        }
+
+        /* Pattern #10: Marketing filler words */
+        .marketing-copy {
+            font-size: 1.25rem;
+            line-height: 1.8;
+        }
+
+        /* Pattern #11: Lorem ipsum placeholder */
+        .placeholder {
+            color: #ccc;
+            font-style: italic;
+        }
+
+        /* Pattern #12: Default Inter + framework-blue buttons */
+        .btn-blue {
+            background: #3b82f6;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+        }
+
+        /* Pattern #13: Everything rounded-2xl with same soft shadow */
+        .rounded-card {
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Pattern #14: Text-only pages with no interaction */
+        /* This page has plenty of content, so skip */
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Extra banned patterns to ensure comprehensive detection */
+        .gradient-text {
+            background: linear-gradient(90deg, #ffd93d, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .emoji-marker {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* Pattern continuation: Multiple identical card structures */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .service {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <span class="pill">Introducing</span>
+            <h1>AI Generated Design Page</h1>
+            <div class="marketing-copy">
+                <p>Revolutionary platform that Elevate your business, Unleash your potential, Seamless integration, Cutting-edge technology, All-in-one solution</p>
+            </div>
+            <div class="buttons">
+                <button class="cta">Get Started</button>
+                <button class="cta">Learn More</button>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service rounded-card">
+                <span class="emoji-marker">✨</span>
+                <h3>Amazing Feature</h3>
+                <p>Some description here that fits the pattern</p>
+            </div>
+            <div class="service rounded-card">
+                <span class="emoji-marker">🚀</span>
+                <h3>Another Feature</h3>
+                <p>Description that continues the pattern</p>
+            </div>
+            <div class="service rounded-card">
+                <span class="emoji-marker">💡</span>
+                <h3>Third Feature</h3>
+                <p>Yet another descriptive text to complete the grid</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>Our Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card glass neon">
+                    <span class="icon"></span>
+                    <h4>Feature One</h4>
+                    <p>Content for feature one</p>
+                </div>
+                <div class="feature-card glass neon">
+                    <span class="icon"></span>
+                    <h4>Feature Two</h4>
+                    <p>Content for feature two</p>
+                </div>
+                <div class="feature-card glass neon">
+                    <span class="icon"></span>
+                    <h4>Feature Three</h4>
+                    <p>Content for feature three</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="blob" style="top: -150px; left: -150px;"></div>
+        <div class="blob" style="bottom: -100px; right: -100px;"></div>
+    </div>
+</body>
+</html>

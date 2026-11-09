@@ -1,0 +1,60 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #121211; }
+      .text-main { fill: #d9d5c9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .text-muted { fill: #77746a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .accent { fill: #e8b04a; }
+      .card { fill: #1e1e24; stroke: #2d2d35; }
+    </style>
+  </defs>
+  <rect class="bg" width="390" height="844"/>
+
+  <!-- Header -->
+  <text x="20" y="40" class="text-main" font-size="24" font-weight="700">Mama Tee's</text>
+  <text x="370" y="40" class="text-muted" font-size="14" text-anchor="end">Freetown</text>
+
+  <!-- Order Input -->
+  <rect x="20" y="70" width="350" height="50" rx="8" class="card"/>
+  <text x="20" y="78" class="text-main" font-size="14">Order on WhatsApp</text>
+  <text x="20" y="100" class="text-muted" font-size="12">Send: "I want 2 loaves"</text>
+
+  <!-- Recent Orders -->
+  <text x="20" y="130" class="text-main" font-size="18" font-weight="600">Recent Orders</text>
+
+  <rect x="20" y="160" width="150" height="45" rx="6" class="card"/>
+  <text x="25" y="172" class="text-main" font-size="12" text-anchor="end">Kofi: 1 loaf</text>
+
+  <rect x="20" y="190" width="150" height="45" rx="6" class="card"/>
+  <text x="25" y="202" class="text-main" font-size="12" text-anchor="end": "Aisha: 2 loaves"</text>
+
+  <!-- Browse Menu -->
+  <text x="20" y="250" class="text-main" font-size="18" font-weight="600">Menu</text>
+
+  <rect x="20" y="280" width="150" height="180" rx="8" class="card"/>
+  <text x="25" y="290" class="text-main" font-size="14">Bread Loaf</text>
+  <text x="25" y="310" class="text-muted" font-size="12">Local ingredients, sourdough</text>
+
+  <rect x="20" y="320" width="150" height="45" rx="6" class="card"/>
+  <text x="25" y="335" class="text-main" font-size="14">Croissant</text>
+  <text x="25" y="355" class="text-muted" font-size="12">Butter from local farms</text>
+
+  <rect x="20" y="370" width="150" height="45" rx="6" class="card"/>
+  <text x="25" y="385" class="text-main" font-size="14">Chinchinga Bread</text>
+  <text x="25" y="395" class="text-muted" font-size="12">Sugar cane flavor, grilled</text>
+
+  <!-- Order Summary -->
+  <text x="20" y="580" class="text-main" font-size="18" font-weight="600">Order Summary</text>
+
+  <rect x="20" y="610" width="150" height="80" rx="8" class="card"/>
+  <text x="25" y="620" class="text-main" font-size="14">2x Bread Loaf @ $5.00 each = $10.00</text>
+  <text x="25" y="640" class="text-muted" font-size="12">Delivery to: 12 Wilkinson Rd</text>
+
+  <rect x="20" y="690" width="350" height="100" rx="8" class="card"/>
+  <text x="20" y="710" class="text-main" font-size="16" text-anchor="center">Total: $10.00</text>
+  <text x="20" y="730" class="text-muted" font-size="12" text-anchor="center">Order via WhatsApp Pay</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="820" x2="370" y2="820" stroke="#2d2d35" stroke-width="1"/>
+  <text x="20" y="840" class="text-muted" font-size="10" text-anchor="left">Mama Tee's • +232 76 123 456</text>
+</svg>

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-src/
+*.tsbuildinfo
+
+# Test / coverage / snapshot artifacts
+coverage/
+*.snap
+tests-tmp/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug / throwaway scripts from exploration only
+debug*.cjs
+test-path.cjs
+test-regex.cjs

@@ -1,0 +1,54 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #1a1a2e; }
+      .text-main { fill: #eaeaea; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .text-muted { fill: #888; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .accent { fill: #e8b04a; }
+      .btn-primary { fill: #e8b04a; }
+      .btn-secondary { stroke: #e8b04a; fill: none; }
+      .card { fill: #252540; stroke: #3a3a5a; }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="800"/>
+
+  <!-- Navigation -->
+  <text x="60" y="50" class="text-main" font-size="24" font-weight="600">Mama Tee's</text>
+  <text x="1100" y="50" class="text-main" font-size="16" text-anchor="end">Menu • About • Contact</text>
+
+  <!-- Hero -->
+  <text x="640" y="200" class="text-main" font-size="56" font-weight="700" text-anchor="middle">Fresh Bread, Made Daily</text>
+  <text x="640" y="260" class="text-muted" font-size="20" text-anchor="middle">Hand-kneaded in Freetown since 1998. Order via WhatsApp for pickup.</text>
+
+  <!-- CTA Buttons -->
+  <rect x="540" y="290" width="200" height="56" rx="8" class="btn-primary"/>
+  <text x="640" y="328" class="text-main" font-size="16" font-weight="600" text-anchor="middle">Order on WhatsApp</text>
+
+  <rect x="760" y="290" width="160" height="56" rx="8" class="btn-secondary" stroke-width="2"/>
+  <text x="840" y="328" class="accent" font-size="16" font-weight="600" text-anchor="middle">View Menu</text>
+
+  <!-- Features -->
+  <text x="640" y="400" class="text-main" font-size="32" font-weight="600" text-anchor="middle">Why Choose Us</text>
+
+  <rect x="140" y="440" width="300" height="200" rx="12" class="card"/>
+  <circle cx="290" cy="490" r="40" fill="none" stroke="#e8b04a" stroke-width="3"/>
+  <text x="290" y="500" class="accent" font-size="24" text-anchor="middle">🍞</text>
+  <text x="290" y="580" class="text-main" font-size="18" font-weight="600" text-anchor="middle">Fresh Daily</text>
+  <text x="290" y="620" class="text-muted" font-size="14" text-anchor="middle">Baked at 4am every morning</text>
+
+  <rect x="490" y="440" width="300" height="200" rx="12" class="card"/>
+  <circle cx="640" cy="490" r="40" fill="none" stroke="#e8b04a" stroke-width="3"/>
+  <text x="640" y="500" class="accent" font-size="24" text-anchor="middle">☕</text>
+  <text x="640" y="580" class="text-main" font-size="18" font-weight="600" text-anchor="middle">Local Coffee</text>
+  <text x="640" y="620" class="text-muted" font-size="14" text-anchor="middle">Sourced from Sierra Leone growers</text>
+
+  <rect x="840" y="440" width="300" height="200" rx="12" class="card"/>
+  <circle cx="990" cy="490" r="40" fill="none" stroke="#e8b04a" stroke-width="3"/>
+  <text x="990" y="500" class="accent" font-size="24" text-anchor="middle">📱</text>
+  <text x="990" y="580" class="text-main" font-size="18" font-weight="600" text-anchor="middle">Easy Ordering</text>
+  <text x="990" y="620" class="text-muted" font-size="14" text-anchor="middle">WhatsApp us anytime</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="720" x2="1220" y2="720" stroke="#3a3a5a" stroke-width="1"/>
+  <text x="640" y="760" class="text-muted" font-size="14" text-anchor="middle">Mama Tee's Bakery • 12 Wilkinson Rd, Freetown • +232 76 123 456</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f5f5f0; }
+      .card { fill: #ffffff; stroke: #e0dcc7; }
+      .text-title { fill: #121211; font-family: 'Georgia', serif; font-size="48" font-weight="700"; }
+      .text-subtitle { fill: #d9d5c9; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+      .text-body { fill: #1a1a1e; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+      .text-muted { fill: #77746a; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+      .accent { fill: #e8b04a; }
+      .category { fill: #121211; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight="600"; }
+      .price { fill: #e8b04a; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight="600"; }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="800"/>
+
+  <!-- Header -->
+  <text x="60" y="80" class="text-title" font-size="40">Our Menu</text>
+  <text x="60" y="120" class="text-subtitle" font-size="18">Everything we bake, made fresh each day in Freetown</text>
+
+  <!-- Bread Section -->
+  <text x="60" y="200" class="category" font-size="24">Breads</text>
+
+  <rect x="60" y="230" width="380" height="180" class="card"/>
+  <text x="80" y="255" class="text-body" font-size="18" font-weight="600">Sourdough Loaf</text>
+  <text x="80" y="280" class="text-muted" font-size="14">48-hour fermentation, local whole wheat</text>
+  <text x="280" y="350" class="price" font-size="18">$4.50</text>
+
+  <rect x="460" y="230" width="380" height="180" class="card"/>
+  <text x="480" y="255" class="text-body" font-size="18" font-weight="600">Chinchinga Bread</text>
+  <text x="480" y="280" class="text-muted" font-size="14">Grilled sugar cane loaf, street food favorite</text>
+  <text x="680" y="350" class="price" font-size="18">$5.00</text>
+
+  <rect x="860" y="230" width="360" height="180" class="card"/>
+  <text x="880" y="255" class="text-body" font-size="18" font-weight="600">Garlic Naan</text>
+  <text x="880" y="280" class="text-muted" font-size="14">Fresh herbs, baked in wood oven</text>
+  <text x="1160" y="350" class="price" font-size="18">$3.75</text>
+
+  <!-- Pastries Section -->
+  <text x="60" y="460" class="category" font-size="24">Pastries</text>
+
+  <rect x="60" y="490" width="380" height="160" class="card"/>
+  <text x="80" y="515" class="text-body" font-size="18" font-weight="600">Butter Croissant</text>
+  <text x="80" y="535" class="text-muted" font-size="14">Layers of butter, golden flaky crust</text>
+  <text x="280" y="590" class="price" font-size="18">$2.50</text>
+
+  <rect x="460" y="490" width="380" height="160" class="card"/>
+  <text x="480" y="515" class="text-body" font-size="18" font-weight="600">Pain au Chocolat</text>
+  <text x="480" y="535" class="text-muted" font-size="14">Dark chocolate, buttery laminated dough</text>
+  <text x="680" y="590" class="price" font-size="18">$3.25</text>
+
+  <rect x="860" y="490" width="360" height="160" class="card"/>
+  <text x="880" y="515" class="text-body" font-size="18" font-weight="600">Apple Danish</text>
+  <text x="880" y="535" class="text-muted" font-size="14">Local apples, cinnamon, cardamom</text>
+  <text x="1160" y="590" class="price" font-size="18">$4.00</text>
+
+  <!-- Cakes Section -->
+  <text x="60" y="700" class="category" font-size="24">Cakes</text>
+
+  <rect x="60" y="730" width="380" height="50" class="card"/>
+  <text x="80" y="750" class="text-body" font-size="16" font-weight="600">Custom Orders Available</text>
+  <text x="80" y="765" class="text-muted" font-size="12">Birthday, wedding, celebration cakes — call ahead</text>
+
+  <!-- Footer -->
+  <text x="60" y="790" class="text-muted" font-size="14">Order via WhatsApp: +232 76 123 456</text>
+</svg>
